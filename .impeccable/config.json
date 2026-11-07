@@ -1,0 +1,29 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "space grotesk",
+        "createdAt": "2026-11-07T22:03:18.081Z",
+        "reason": "project design system: the app's DESIGN.md sets Space Grotesk for titles; owner asked the site to look like the app"
+      },
+      {
+        "rule": "overused-font",
+        "value": "inter",
+        "createdAt": "2026-11-07T22:03:18.092Z",
+        "reason": "project design system: the app's DESIGN.md sets Inter for body text; owner asked the site to look like the app"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-07T22:03:18.103Z",
+        "reason": "static-HTML false positive: rendered sections are inset by .wrap (20px sides) and 64-88px block padding, checked in screenshots"
+      }
+    ]
+  }
+}
