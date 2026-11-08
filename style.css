@@ -159,6 +159,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .faq a{color:var(--ink);font-weight:700}
 
 /* Closing */
+.maker{display:grid;gap:16px;max-width:640px}.maker h2{font-size:clamp(30px,4vw,46px)}.maker p{font-size:18px;color:var(--on-stage-mut)}
 .closing .wrap{display:flex;flex-wrap:wrap;gap:28px;align-items:center;justify-content:space-between}
 .closing h2{font-size:clamp(30px,4vw,46px);max-width:18ch}
 
