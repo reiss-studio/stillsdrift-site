@@ -5,10 +5,10 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>StillsDrift: your photos, in motion</title>
 <meta name="description" content="StillsDrift turns a few photos into a short moving video for Reels, Stories and Shorts: scrolling columns, photo walls and slideshows, made on your phone.">
-<meta name="theme-color" content="#0C0D11">
+<meta name="theme-color" content="#0B0B0B">
 <link rel="icon" href="/assets/img/icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
-<link rel="preload" href="/assets/fonts/space-grotesk-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/archivo-black-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/style.css">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://stillsdrift.com/">
@@ -19,89 +19,125 @@
 </head>
 <body>
 <header class="top"><div class="wrap">
-  <a class="brand" href="/"><img src="/assets/img/icon.svg" alt="" width="30" height="30">StillsDrift</a>
+  <a class="brand" href="/"><img src="/assets/img/icon.svg" alt="" width="32" height="32">StillsDrift</a>
   <nav aria-label="Sections"><a href="#styles">Styles</a><a href="#how">How it works</a><a href="#free">Free &amp; Plus</a><a href="#faq">Questions</a></nav>
-  <a class="btn pri sm" href="mailto:reiss.studio@gmail.com?subject=StillsDrift%20Android%20test">Join the test</a>
+  <a class="btn pill" href="mailto:support@stillsdrift.com?subject=StillsDrift%20Android%20test">Join the test</a>
 </div></header>
 
 <main>
-<div class="hero"><div class="wrap">
+<section class="hero"><div class="wrap">
   <div>
     <h1><span class="d1">Your photos,</span><span class="d2">drifting</span><span class="d3">into motion.</span></h1>
     <p class="lead">Pick a few photos and StillsDrift makes a short moving video: scrolling columns, a photo wall or a slideshow, every photo with its own camera move. Ready for Reels, Stories and Shorts.</p>
     <div class="cta">
-      <a class="btn pri" href="mailto:reiss.studio@gmail.com?subject=StillsDrift%20Android%20test">Join the Android test</a>
-      <a class="btn ghost" aria-disabled="true">Google Play: soon</a>
+      <a class="btn pri" href="mailto:support@stillsdrift.com?subject=StillsDrift%20Android%20test">Join the Android test</a>
+      <a class="btn out" aria-disabled="true">Google Play: soon</a>
     </div>
-    <p class="facts mono"><span>Android, testing now</span><span>Free to use</span><span>No account</span><span>Works offline</span></p>
+    <p class="facts"><span>Android, testing now</span><span>Free to use</span><span>No account</span><span>Works offline</span></p>
   </div>
-  <figure class="phone" style="margin:0">
+  <figure class="phone">
     <video src="/assets/video/columns.mp4" poster="/assets/video/columns.jpg" autoplay muted loop playsinline aria-label="Scrolling Columns: three photos moving up in columns"></video>
-    <figcaption class="mono">Scrolling Columns · 9:16 · made in the app</figcaption>
+    <figcaption>Scrolling Columns · 9:16 · made in the app</figcaption>
   </figure>
-</div></div>
+</div></section>
 
-<section id="styles"><div class="wrap">
+<section id="styles" class="band sheet"><div class="wrap">
   <div class="head">
-    <p class="eyebrow">Three styles</p>
+    <span class="label">Style</span>
     <h2>One set of photos, three kinds of video.</h2>
-    <p>Switch the style with one tap and the same photos play again. Seven shapes, from 9:16 for Reels to 16:9 for YouTube.</p>
+    <p>Switch the style with one tap and the same photos play again.</p>
   </div>
   <div class="styles">
-    <figure class="style" style="margin:0">
+    <figure class="style">
       <video src="/assets/video/columns.mp4" poster="/assets/video/columns.jpg" autoplay muted loop playsinline aria-label="Scrolling Columns example"></video>
       <h3>Scrolling Columns</h3>
       <p>Photos scroll up in columns, and the video loops with no jump.</p>
-      <span class="mono">10 s loop · 3 photos</span>
+      <span class="spec">10 s loop · 3 photos</span>
     </figure>
-    <figure class="style" style="margin:0">
+    <figure class="style">
       <video src="/assets/video/wall.mp4" poster="/assets/video/wall.jpg" autoplay muted loop playsinline aria-label="Photo Wall example"></video>
       <h3>Photo Wall</h3>
       <p>Photos side by side, each one moving, opened by a curtain, an iris or a wipe.</p>
-      <span class="mono">6 s · rows, columns or a grid</span>
+      <span class="spec">6 s · rows, columns or a grid</span>
     </figure>
-    <figure class="style" style="margin:0">
+    <figure class="style">
       <video src="/assets/video/slideshow.mp4" poster="/assets/video/slideshow.jpg" autoplay muted loop playsinline aria-label="Slideshow example"></video>
       <h3>Slideshow</h3>
       <p>One photo after another, each with its own push, pan, tilt or turn.</p>
-      <span class="mono">a few seconds per photo</span>
+      <span class="spec">a few seconds per photo</span>
     </figure>
+  </div>
+  <div class="shapes" aria-label="Seven shapes">
+    <span aria-current="true"><i style="width:10px;height:16px"></i>9:16</span>
+    <span><i style="width:12px;height:16px"></i>4:5</span>
+    <span><i style="width:11px;height:16px"></i>2:3</span>
+    <span><i style="width:14px;height:14px"></i>1:1</span>
+    <span><i style="width:16px;height:13px"></i>5:4</span>
+    <span><i style="width:17px;height:11px"></i>3:2</span>
+    <span><i style="width:18px;height:10px"></i>16:9</span>
   </div>
 </div></section>
 
-<section id="how"><div class="wrap">
+<section class="band stage" id="motion"><div class="wrap">
   <div class="head">
-    <p class="eyebrow">How it works</p>
+    <span class="label">Motion</span>
+    <h2>Calm or lively, you choose the pace.</h2>
+    <p>Every photo gets its own camera move. Pick how fast they go, and whether they play once or go there and back.</p>
+  </div>
+  <div class="paces">
+    <div class="pace"><svg viewBox="0 0 44 22" aria-hidden="true"><path d="M17 3l8 8-8 8"/></svg><b>Calm</b></div>
+    <div class="pace" aria-current="true"><svg viewBox="0 0 44 22" aria-hidden="true"><path d="M11 3l8 8-8 8M23 3l8 8-8 8"/></svg><b>Balanced</b></div>
+    <div class="pace"><svg viewBox="0 0 44 22" aria-hidden="true"><path d="M5 3l8 8-8 8M17 3l8 8-8 8M29 3l8 8-8 8"/></svg><b>Lively</b></div>
+  </div>
+  <div class="moves">
+    <span aria-current="true">One way</span><span>Ping-pong</span><span class="sep" aria-hidden="true"></span><span>Push / Pull</span><span>Pan / Tilt</span><span>Drift</span>
+  </div>
+</div></section>
+
+<section id="how" class="band stage"><div class="wrap">
+  <div class="head">
+    <span class="label">How it works</span>
     <h2>From the gallery to a video in under a minute.</h2>
   </div>
   <ol class="steps">
     <li>
-      <div class="shot"><img src="/assets/img/ui-home.webp" alt="StillsDrift with three photos and the video playing" width="384" height="780" loading="lazy"></div>
+      <div class="pic" aria-hidden="true">
+        <span class="th" style="background-image:url(/assets/video/slideshow.jpg)"></span>
+        <span class="th" style="background-image:url(/assets/video/columns.jpg);background-position:70% 30%"></span>
+        <span class="th" style="background-image:url(/assets/video/wall.jpg)"></span>
+        <span class="th add">+</span>
+      </div>
       <h3>Pick a few photos</h3>
       <p>A video plays right away. Not sure where to start? The dice tries a style, a shape and a pace in one tap.</p>
     </li>
     <li>
-      <div class="shot"><img src="/assets/img/ui-crop.webp" alt="The crop screen with the start and end frames and the Hotspot tools" width="384" height="780" loading="lazy"></div>
+      <div class="pic spot" style="background-image:url(/assets/video/slideshow.jpg)" aria-hidden="true">
+        <span class="blob"></span><b>Paint over what matters with one finger.</b>
+      </div>
       <h3>Mark what matters</h3>
       <p>Paint a Hotspot over a face, a dish or a car. Every move keeps it in the frame. StillsDrift can find a face for you.</p>
     </li>
     <li>
-      <div class="shot"><img src="/assets/img/ui-style.webp" alt="The Style card with Scrolling Columns, Photo Wall and Slideshow" width="384" height="780" loading="lazy"></div>
+      <div class="pic" aria-hidden="true">
+        <span class="mini" aria-current="true"><i class="mc"><b></b><b></b><b></b></i>Scrolling Columns</span>
+        <span class="mini"><i class="mw"><b></b><b></b><b></b><b></b></i>Photo Wall</span>
+        <span class="mini"><i class="ms"><b></b></i>Slideshow</span>
+      </div>
       <h3>Choose a look and save</h3>
       <p>Set the style, the shape and the pace, then save an MP4 to your gallery, ready to post.</p>
     </li>
   </ol>
 </div></section>
 
-<section id="free"><div class="wrap">
+<section id="free" class="band sheet"><div class="wrap">
   <div class="head">
-    <p class="eyebrow">Free &amp; Plus</p>
+    <span class="label">Free &amp; Plus</span>
     <h2>Everything is in the free app.</h2>
     <p>Every style and every tool. Plus, for bigger videos, is on the way.</p>
   </div>
   <div class="plans">
     <div class="plan free">
-      <header><h3>Free</h3><span class="badge">Now</span></header>
+      <header><h3>Free</h3><span class="pro">Now</span></header>
       <ul>
         <li>Every style, shape and camera move</li>
         <li>Up to 3 photos in a video</li>
@@ -111,20 +147,20 @@
       </ul>
     </div>
     <div class="plan plus">
-      <header><h3>Plus</h3><span class="badge">Coming soon</span></header>
+      <header><h3>Plus</h3><span class="pro">Coming soon</span></header>
       <ul>
         <li>More photos in every video</li>
         <li>Finds every face, in every photo</li>
       </ul>
       <p class="note">We'll write once, when Plus is ready.</p>
-      <div><a class="btn ghost" href="https://forms.gle/ixzU41wW5rAVhiVU9">Tell me when it's ready</a></div>
+      <a class="btn pri" href="https://forms.gle/ixzU41wW5rAVhiVU9">Tell me when it's ready</a>
     </div>
   </div>
 </div></section>
 
-<section id="private"><div class="wrap">
+<section id="private" class="band stage"><div class="wrap">
   <div class="head">
-    <p class="eyebrow">Private by design</p>
+    <span class="label">Private by design</span>
     <h2>Your photos stay on your phone.</h2>
   </div>
   <div class="private">
@@ -134,8 +170,8 @@
   </div>
 </div></section>
 
-<section id="faq"><div class="wrap">
-  <div class="head"><p class="eyebrow">Questions</p><h2>Good to know</h2></div>
+<section id="faq" class="band sheet"><div class="wrap">
+  <div class="head"><span class="label">Questions</span><h2>Good to know</h2></div>
   <div class="faq">
     <details><summary>Where do my videos go?</summary><p>Tap Save. The video goes to your gallery, in an album called StillsDrift.</p></details>
     <details><summary>Which phones does it run on?</summary><p>Android phones, through Google Play (testing now). An iPhone version is planned.</p></details>
@@ -145,15 +181,15 @@
   </div>
 </div></section>
 
-<section class="band"><div class="wrap">
+<section class="band stage closing"><div class="wrap">
   <h2>Try it before everyone else.</h2>
-  <div class="cta" style="margin:0"><a class="btn pri" href="mailto:reiss.studio@gmail.com?subject=StillsDrift%20Android%20test">Join the Android test</a></div>
+  <a class="btn pri" href="mailto:support@stillsdrift.com?subject=StillsDrift%20Android%20test">Join the Android test</a>
 </div></section>
 </main>
 
 <footer class="foot"><div class="wrap">
-  <span class="made"><img src="/assets/img/icon.svg" alt="" width="22" height="22">StillsDrift is made by <a href="https://reiss.co.il">REISS STUDIO</a>, Israel.</span>
-  <nav aria-label="Site"><a href="/support.html">Support</a><a href="/privacy.html">Privacy</a><a href="mailto:reiss.studio@gmail.com">reiss.studio@gmail.com</a></nav>
+  <span class="made"><img src="/assets/img/icon.svg" alt="" width="24" height="24">StillsDrift is made by <a href="https://reiss.co.il">REISS STUDIO</a>, Israel.</span>
+  <nav aria-label="Site"><a href="/support.html">Support</a><a href="/privacy.html">Privacy</a><a href="mailto:support@stillsdrift.com">support@stillsdrift.com</a></nav>
 </div></footer>
 </body>
 </html>
