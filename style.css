@@ -206,3 +206,10 @@ main.doc ol.steps li::before{content:counter(st);position:absolute;left:20px;top
 main.doc ol.steps h2{margin:4px 0 6px}
 main.doc ol.steps .btn{margin-top:6px;white-space:normal;text-align:center}
 @media (max-width:420px){main.doc ol.steps li{padding:64px 16px 18px}main.doc ol.steps li::before{left:16px;top:16px}}
+/* Join the test: what the app is, for visitors who arrive from a sticker or a shared link */
+main.doc .intro{display:grid;grid-template-columns:120px minmax(0,1fr);gap:20px;align-items:start;margin:0 0 32px}
+main.doc .intro video{display:block;width:100%;aspect-ratio:9/16;object-fit:cover;border-radius:var(--r-sm);border:2px solid var(--ink);background:var(--ink)}
+main.doc .intro p{margin:0 0 12px}
+main.doc .intro .date{margin:0 0 12px}
+main.doc .intro .iphone{font-size:15.5px;color:var(--ink-mut)}
+@media (max-width:420px){main.doc .intro{grid-template-columns:92px minmax(0,1fr);gap:14px}main.doc .intro .what{font-size:16px}}

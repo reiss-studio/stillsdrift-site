@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>StillsDrift</title>
+<!--
+  The short address printed on stickers and flyers: stillsdrift.com/s/?src=sticker
+  It forwards to the page that matters now, keeping ?src=... so the source stays readable.
+  When the beta ends, change TARGET (and the two fallbacks below) to the Google Play page
+  or the home page. Every sticker already printed keeps working.
+-->
+<meta http-equiv="refresh" content="0; url=/test.html?src=sticker">
+<link rel="canonical" href="https://stillsdrift.com/test.html">
+<script>
+  var TARGET = '/test.html';
+  location.replace(TARGET + (location.search || '?src=sticker') + location.hash);
+</script>
+</head>
+<body style="font-family:system-ui,sans-serif;background:#F5B400;color:#1A1200;padding:24px">
+<p><a href="/test.html?src=sticker" style="color:#1A1200;font-weight:700">Continue to StillsDrift</a></p>
+</body>
+</html>
