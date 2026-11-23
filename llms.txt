@@ -1,0 +1,22 @@
+# StillsDrift
+
+> StillsDrift is a free photo-to-video app for your phone. It turns a few photos into a short moving video for Reels, Stories and Shorts. It works offline, needs no account, and never uploads your photos. Currently in testing on Android; an iPhone version is planned. Made by REISS STUDIO, professional photographers.
+
+## Key facts
+
+- Styles: Scrolling Columns, Photo Wall, Slideshow
+- Formats: 9:16 (Reels, Stories, Shorts), 1:1, 16:9
+- Pace: calm, balanced or lively; mark the main subject so every move keeps it in the frame
+- Free version: every style and tool, up to 3 photos, 720p, small watermark. A Plus version with more photos is coming
+- Private: the video is made on the phone, nothing is uploaded, works offline, no account
+
+## Pages
+
+- [Home](https://stillsdrift.com/): what StillsDrift is, styles, plans, questions
+- [How to turn photos into a video on your phone](https://stillsdrift.com/photos-to-video.html)
+- [Photo videos for Reels, Stories and Shorts](https://stillsdrift.com/video-for-reels-stories-shorts.html)
+- [A photo video maker that works offline, with no account](https://stillsdrift.com/offline-photo-video-maker.html)
+- [Join the Android test](https://stillsdrift.com/test.html)
+- [Support](https://stillsdrift.com/support.html)
+- [Privacy policy](https://stillsdrift.com/privacy.html)
+- [Terms of use](https://stillsdrift.com/terms.html)
